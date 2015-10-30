@@ -88,3 +88,4 @@ source $ZSH/oh-my-zsh.sh
 ### User specific section
 source ~/.zsh/cdpath
 source ~/.zsh/golang
+source ~/.zsh/rbenv
