@@ -1,0 +1,3 @@
+edng() {
+  atom "~/ng-book2/manuscript/code/$*"
+}

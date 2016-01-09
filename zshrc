@@ -89,3 +89,5 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/cdpath
 source ~/.zsh/golang
 source ~/.zsh/rbenv
+source ~/.zsh/aliases
+source ~/.zsh/settings
