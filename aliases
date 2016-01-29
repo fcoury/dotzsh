@@ -1,3 +1,11 @@
 edng() {
   atom "~/ng-book2/manuscript/code/$*"
 }
+
+alias r='bin/rails'
+alias be='bundle exec'
+alias gl='git log'
+alias gp='git pull'
+alias gps='git push'
+alias gs='git status'
+alias grb='git co master && git pull && git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
