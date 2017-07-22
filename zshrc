@@ -91,3 +91,5 @@ source ~/.zsh/golang
 source ~/.zsh/rbenv
 source ~/.zsh/aliases
 source ~/.zsh/settings
+source ~/.zsh/iterm2
+
