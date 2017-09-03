@@ -92,4 +92,5 @@ source ~/.zsh/rbenv
 source ~/.zsh/aliases
 source ~/.zsh/settings
 source ~/.zsh/iterm2
+source ~/.zsh/imagemagick
 
