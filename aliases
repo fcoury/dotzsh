@@ -2,6 +2,10 @@ edng() {
   atom "~/ng-book2/manuscript/code/$*"
 }
 
+rl() {
+  sed -i '' -e "${1}d" /Users/fcoury/.ssh/known_hosts
+}
+
 alias r='bin/rails'
 alias be='bundle exec'
 alias gl='git log'

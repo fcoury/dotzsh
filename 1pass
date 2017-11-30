@@ -1,0 +1,4 @@
+if command -v op > /dev/null 2>&1; then
+	source ~/.1passcfg
+	eval $(op signin team_gistia "${ONEPASS}")
+fi
