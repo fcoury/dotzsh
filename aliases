@@ -6,6 +6,18 @@ rl() {
   sed -i '' -e "${1}d" /Users/fcoury/.ssh/known_hosts
 }
 
+syncall() {
+  folders=(
+    'config' 'workflow-engine' 'page-builder' 'page-builder-interface'
+    'case-management' 'mongodb-promise' 'providers'
+  )
+
+  for i in $folders; do
+    cd "$HOME/code/$i"
+    hub sync
+  done
+}
+
 alias r='bin/rails'
 alias be='bundle exec'
 alias gl='git log'
