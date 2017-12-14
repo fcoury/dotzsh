@@ -88,6 +88,7 @@ source $ZSH/oh-my-zsh.sh
 ### User specific section
 source ~/.zsh/cdpath
 source ~/.zsh/golang
+source ~/.zsh/nvm
 source ~/.zsh/rbenv
 source ~/.zsh/aliases
 source ~/.zsh/settings
@@ -96,4 +97,6 @@ source ~/.zsh/imagemagick
 #source ~/.zsh/1pass
 source ~/.zsh/nvm
 source ~/.zsh/path
-source ~/.zsh/secrets
+test -f ~/.zsh/secrets && source ~/.zsh/secrets
+
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
