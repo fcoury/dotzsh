@@ -97,6 +97,9 @@ source ~/.zsh/imagemagick
 #source ~/.zsh/1pass
 source ~/.zsh/nvm
 source ~/.zsh/path
+source ~/.zsh/bashmyaws
+source ~/.zsh/rust
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
+source ~/.iterm2_shell_integration.zsh
 
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
