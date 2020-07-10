@@ -39,6 +39,9 @@ COMPLETION_WAITING_DOTS="true"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+# Disables compfix, preventing "Insecure completion-dependent directories detected"
+ZSH_DISABLE_COMPFIX=true
+
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
@@ -99,7 +102,8 @@ source ~/.zsh/nvm
 source ~/.zsh/path
 source ~/.zsh/bashmyaws
 source ~/.zsh/rust
+source ~/.zsh/qt
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
-source ~/.iterm2_shell_integration.zsh
+test -f ~/.iterm2_shell_integration.sh && source ~/.iterm2_shell_integration.zsh
 
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
