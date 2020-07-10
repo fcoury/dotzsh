@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/fcoury/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -104,6 +104,6 @@ source ~/.zsh/bashmyaws
 source ~/.zsh/rust
 source ~/.zsh/qt
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
-test -f ~/.iterm2_shell_integration.sh && source ~/.iterm2_shell_integration.zsh
+test -f ~/.iterm2_shell_integration.zh && source ~/.iterm2_shell_integration.zsh
 
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
