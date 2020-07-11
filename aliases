@@ -3,7 +3,7 @@ edng() {
 }
 
 rl() {
-  sed -i '' -e "${1}d" /Users/fcoury/.ssh/known_hosts
+  sed -i '' -e "${1}d" $HOME/.ssh/known_hosts
 }
 
 syncall() {
