@@ -1,13 +1,6 @@
 #!/bin/bash
 
 TOKEN=`cat ~/.github | grep '^token=' | sed s/^token=//g`
-
-GITHUB_REPO=""
-for i in `git remote -v`; do
-  REPO=`echo $i | sed 's/git@github\.com:\(.*\)\.git/\1/'`
-  if [[ "$REPO" != "$i" ]]; then
-    GITHUB_REPO="$REPO"
-  fi
-done
+GITHUB_REPO=`git remote -v | perl -nle 'if (/.*git\@github.com:([^\s]*?)(.git)?\s+.*/) { print "$1"; exit }'`
 
 curl -s --user "fcoury:$TOKEN" "https://api.github.com/repos/$GITHUB_REPO" | jq '.default_branch' | sed s/\"//g
