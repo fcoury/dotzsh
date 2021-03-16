@@ -1,0 +1,1 @@
+test -x /usr/local/bin/pyenv && eval "$(pyenv init -)"

@@ -103,7 +103,9 @@ source ~/.zsh/path
 source ~/.zsh/bashmyaws
 source ~/.zsh/rust
 source ~/.zsh/qt
+source ~/.zsh/pyenv
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
 test -f ~/.iterm2_shell_integration.zh && source ~/.iterm2_shell_integration.zsh
+#test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
