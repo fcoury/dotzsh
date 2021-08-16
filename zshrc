@@ -107,6 +107,10 @@ source ~/.zsh/pyenv
 source ~/.zsh/completions
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
 test -f ~/.iterm2_shell_integration.zh && source ~/.iterm2_shell_integration.zsh
+source ~/.zsh/homebrew
+source ~/.zsh/broot
+source ~/.zsh/funky
+source ~/.zsh/zfz
 #test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn

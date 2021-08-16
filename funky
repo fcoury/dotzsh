@@ -1,0 +1,2 @@
+test -f /usr/local/lib/python3.9/site-packages/scripts/shell/funky.sh && source /usr/local/lib/python3.9/site-packages/scripts/shell/funky.sh
+test -f /usr/local/lib/python3.9/site-packages/scripts/shell/funky.sh && alias fu=funky
