@@ -1,0 +1,16 @@
+[user]
+	name = Felipe Coury
+	email = felipe.coury@gmail.com
+[github]
+	user = fcoury
+[core]
+	editor = mate -w
+[color]
+	ui = true
+[push]
+	default = matching
+[alias]
+	st = status -sb
+	co = checkout
+[pull]
+	rebase = true
