@@ -111,6 +111,7 @@ source ~/.zsh/homebrew
 source ~/.zsh/broot
 source ~/.zsh/funky
 source ~/.zsh/zfz
+source ~/.zsh/hub
 #test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
