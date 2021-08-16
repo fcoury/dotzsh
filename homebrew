@@ -1,2 +1,3 @@
 export PATH="/usr/local/sbin:$PATH"
 test -d /opt/homebrew/bin && export PATH=/opt/homebrew/bin:$PATH
+test -d /opt/homebrew/bin && export CPLUS_INCLUDE_PATH=/opt/homebrew/include
