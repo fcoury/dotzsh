@@ -113,6 +113,7 @@ source ~/.zsh/funky
 source ~/.zsh/zfz
 source ~/.zsh/hub
 source ~/.zsh/python
+source ~/.zsh/java
 source ~/.zsh/android-sdk
 #test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 
