@@ -54,6 +54,7 @@ ZSH_DISABLE_COMPFIX=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+source ~/.zsh/nvm
 plugins=(git docker zsh-syntax-highlighting zsh-nvm-auto-switch)
 
 # User configuration
@@ -91,7 +92,6 @@ source $ZSH/oh-my-zsh.sh
 ### User specific section
 source ~/.zsh/cdpath
 source ~/.zsh/golang
-source ~/.zsh/nvm
 source ~/.zsh/rbenv
 source ~/.zsh/aliases
 source ~/.zsh/settings
