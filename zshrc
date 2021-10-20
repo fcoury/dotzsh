@@ -55,7 +55,7 @@ ZSH_DISABLE_COMPFIX=true
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 source ~/.zsh/nvm
-plugins=(git docker zsh-syntax-highlighting zsh-nvm-auto-switch)
+plugins=(docker zsh-syntax-highlighting zsh-nvm-auto-switch)
 
 # User configuration
 
@@ -104,7 +104,6 @@ source ~/.zsh/bashmyaws
 source ~/.zsh/rust
 source ~/.zsh/qt
 source ~/.zsh/pyenv
-source ~/.zsh/completions
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
 test -f ~/.iterm2_shell_integration.zh && source ~/.iterm2_shell_integration.zsh
 source ~/.zsh/homebrew
@@ -115,10 +114,17 @@ source ~/.zsh/hub
 source ~/.zsh/python
 source ~/.zsh/java
 source ~/.zsh/android-sdk
+# source ~/.zsh/completions
 #test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 
-[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/bitcomplete bit
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/bit bit
+# [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+# autoload -U +X bashcompinit && bashcompinit
+# complete -o nospace -C /usr/local/bin/bitcomplete bit
+# autoload -U +X bashcompinit && bashcompinit
+# complete -o nospace -C /usr/local/bin/bit bit
+
+# Load Git completion
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
+
+autoload -Uz compinit && compinit
