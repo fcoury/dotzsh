@@ -114,6 +114,7 @@ source ~/.zsh/hub
 source ~/.zsh/python
 source ~/.zsh/java
 source ~/.zsh/android-sdk
+source ~/.zsh/thefuck
 # source ~/.zsh/completions
 #test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 

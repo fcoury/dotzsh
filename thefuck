@@ -1,0 +1,3 @@
+# if test -x /opt/homebrew/bin/thefuck; then
+#   eval $(thefuck --alias --enable-experimental-instant-mode)
+# fi
