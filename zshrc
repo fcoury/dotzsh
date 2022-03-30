@@ -29,6 +29,7 @@ source ~/.zsh/iterm2
 source ~/.zsh/path
 source ~/.zsh/rust
 source ~/.zsh/hub
+source ~/.zsh/thefuck
 # source ~/.zsh/imagemagick
 # source ~/.zsh/golang
 # source ~/.zsh/rbenv
@@ -43,7 +44,6 @@ source ~/.zsh/hub
 # source ~/.zsh/python
 # source ~/.zsh/java
 # source ~/.zsh/android-sdk
-# source ~/.zsh/thefuck
 # source ~/.zsh/completions
 # test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 # test -f ~/.zsh/secrets && source ~/.zsh/secrets
