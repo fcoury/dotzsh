@@ -21,6 +21,7 @@ source $ZSH/oh-my-zsh.sh
 
 ### User loaders section
 
+source ~/.zsh/locale
 source ~/.zsh/cdpath
 source ~/.zsh/aliases
 source ~/.zsh/homebrew
