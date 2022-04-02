@@ -1,3 +1,4 @@
-if test -x /opt/homebrew/bin/thefuck; then
-  eval $(thefuck --alias --enable-experimental-instant-mode)
+if test -x /opt/homebrew/bin/fuck; then
+  # eval $(thefuck --alias --enable-experimental-instant-mode)
+  eval $(thefuck --alias)
 fi
