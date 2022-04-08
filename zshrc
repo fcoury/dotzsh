@@ -10,10 +10,6 @@ ZSH_DISABLE_COMPFIX=true
 # Execution time stamp shown in the history command output.
 HIST_STAMPS="yyyy-mm-dd"
 
-# Plugins
-# plugins=(docker zsh-syntax-highlighting zsh-nvm-auto-switch)
-plugins=(zsh-syntax-highlighting zsh-nvm-auto-switch)
-
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.zsh/bin"
@@ -49,6 +45,10 @@ source ~/.zsh/golang
 # test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
 # test -f ~/.zsh/secrets && source ~/.zsh/secrets
 # test -f ~/.iterm2_shell_integration.zh && source ~/.iterm2_shell_integration.zsh
+
+# Plugins
+# plugins=(docker zsh-syntax-highlighting zsh-nvm-auto-switch)
+plugins=(zsh-syntax-highlighting zsh-nvm-auto-switch)
 
 # Load Git completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
