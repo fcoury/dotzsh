@@ -1,1 +1,2 @@
+test -d /Users/fcoury/Library/Python/3.8 && export PATH=/Users/fcoury/Library/Python/3.8/bin:$PATH
 test -d /Users/fcoury/Library/Python/3.9 && export PATH=/Users/fcoury/Library/Python/3.9/bin:$PATH

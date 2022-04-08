@@ -12,7 +12,7 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # Plugins
 # plugins=(docker zsh-syntax-highlighting zsh-nvm-auto-switch)
-plugins=(zsh-syntax-highlighting)
+plugins=(zsh-syntax-highlighting zsh-nvm-auto-switch)
 
 # User configuration
 
@@ -30,12 +30,12 @@ source ~/.zsh/iterm2
 source ~/.zsh/path
 source ~/.zsh/rust
 source ~/.zsh/hub
-source ~/.zsh/thefuck
+source ~/.zsh/python
+source ~/.zsh/nvm
+source ~/.zsh/golang
 # source ~/.zsh/imagemagick
-# source ~/.zsh/golang
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
-# source ~/.zsh/nvm
 # source ~/.zsh/bashmyaws
 # source ~/.zsh/qt
 # source ~/.zsh/pyenv
@@ -56,4 +56,7 @@ fpath=(~/.zsh $fpath)
 
 autoload -Uz compinit && compinit
 
+### Starship prompt
+
 eval "$(starship init zsh)"
+source ~/.zsh/thefuck
