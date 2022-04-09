@@ -48,7 +48,7 @@ source ~/.zsh/golang
 
 # Plugins
 # plugins=(docker zsh-syntax-highlighting zsh-nvm-auto-switch)
-plugins=(zsh-syntax-highlighting zsh-nvm-auto-switch)
+plugins=(zsh-syntax-highlighting zsh-nvm-auto-switch zsh-autosuggestions)
 
 # Load Git completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
