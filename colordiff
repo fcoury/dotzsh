@@ -1,0 +1,5 @@
+if [ -x `which colordiff` ]; then
+  function diff {
+    colordiff -u "$@" | less -RF
+  }
+fi
