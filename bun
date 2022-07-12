@@ -1,0 +1,9 @@
+export BUN_INSTALL="/Users/fcoury/.bun"
+
+if [ -d "$BUN_INSTALL" ]; then
+  # bun completions
+  [ -s "/Users/fcoury/.bun/_bun" ] && source "/Users/fcoury/.bun/_bun"
+
+  # Bun
+  export PATH="$BUN_INSTALL/bin:$PATH"
+fi

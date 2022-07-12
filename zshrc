@@ -29,6 +29,7 @@ source ~/.zsh/hub
 source ~/.zsh/python
 source ~/.zsh/nvm
 source ~/.zsh/golang
+source ~/.zsh/bun
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
