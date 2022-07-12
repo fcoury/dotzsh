@@ -30,6 +30,7 @@ source ~/.zsh/python
 source ~/.zsh/nvm
 source ~/.zsh/golang
 source ~/.zsh/colordiff
+source ~/.zsh/vscode
 source ~/.zsh/bun
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
