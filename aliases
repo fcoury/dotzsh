@@ -27,7 +27,7 @@ rename() {
 
 alias r='bin/rails'
 alias be='bundle exec'
-alias gl='git log'
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gp='git pull'
 alias gps='git push'
 alias gs='git status'
