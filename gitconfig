@@ -1,16 +1,43 @@
 [user]
 	name = Felipe Coury
 	email = felipe.coury@gmail.com
+
 [github]
 	user = fcoury
+
 [core]
-	editor = mate -w
+	editor = code --wait
+	#pager = less -F -X
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
 [color]
 	ui = true
+
 [push]
-	default = matching
+	default = simple
+
 [alias]
 	st = status -sb
 	co = checkout
+
 [pull]
-	rebase = true
+	rebase = false
+
+[init]
+	defaultBranch = master
+
+[diff]
+	colorMoved = default
+
+[diff "hex"]
+	textconv = hexdump -v -C
+
+[delta]
+	navigate = true
+
+[merge]
+	conflictstyle = diff3
+
