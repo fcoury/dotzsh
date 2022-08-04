@@ -20,7 +20,6 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/locale
 source ~/.zsh/cdpath
 source ~/.zsh/aliases
-source ~/.zsh/homebrew
 source ~/.zsh/settings
 source ~/.zsh/iterm2
 source ~/.zsh/path
@@ -29,9 +28,10 @@ source ~/.zsh/hub
 source ~/.zsh/python
 source ~/.zsh/nvm
 source ~/.zsh/golang
+source ~/.zsh/bun
+source ~/.zsh/homebrew
 source ~/.zsh/colordiff
 source ~/.zsh/vscode
-source ~/.zsh/bun
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
