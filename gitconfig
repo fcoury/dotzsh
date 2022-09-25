@@ -1,6 +1,7 @@
 [user]
 	name = Felipe Coury
 	email = felipe.coury@gmail.com
+	signingkey = 163F83077834A917
 
 [github]
 	user = fcoury
@@ -32,6 +33,7 @@
 
 [diff]
 	colorMoved = default
+	external = difft
 
 [diff "hex"]
 	textconv = hexdump -v -C
@@ -42,3 +44,8 @@
 [merge]
 	conflictstyle = diff3
 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

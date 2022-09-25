@@ -1,0 +1,3 @@
+if [ -x $(which mcfly) ]; then
+  eval "$(mcfly init zsh)"
+fi

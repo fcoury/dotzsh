@@ -32,6 +32,8 @@ source ~/.zsh/bun
 source ~/.zsh/homebrew
 source ~/.zsh/colordiff
 source ~/.zsh/vscode
+source ~/.zsh/mcfly
+source ~/.zsh/jenv
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
