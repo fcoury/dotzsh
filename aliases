@@ -54,3 +54,5 @@ alias gtr='git track'
 alias gap='git add -p'
 
 alias tv='tidy-viewer'
+alias vi='nvim'
+alias vim='nvim'
