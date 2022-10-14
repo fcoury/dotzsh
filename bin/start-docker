@@ -1,6 +1,0 @@
-#!/bin/sh
-
-set -e
-
-docker-machine start
-eval "$(docker-machine env default)"

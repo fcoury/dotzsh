@@ -12,7 +12,7 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.zsh/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin"
 source $ZSH/oh-my-zsh.sh
 
 ### User loaders section
