@@ -23,13 +23,13 @@ source ~/.zsh/aliases
 source ~/.zsh/settings
 source ~/.zsh/iterm2
 source ~/.zsh/path
-source ~/.zsh/rust
 source ~/.zsh/hub
 source ~/.zsh/python
 source ~/.zsh/nvm
 source ~/.zsh/golang
 source ~/.zsh/bun
 source ~/.zsh/homebrew
+source ~/.zsh/rust
 source ~/.zsh/colordiff
 source ~/.zsh/vscode
 source ~/.zsh/mcfly
