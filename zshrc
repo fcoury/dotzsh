@@ -32,8 +32,10 @@ source ~/.zsh/homebrew
 source ~/.zsh/rust
 source ~/.zsh/colordiff
 source ~/.zsh/vscode
-source ~/.zsh/mcfly
+# source ~/.zsh/mcfly
 source ~/.zsh/jenv
+source ~/.zsh/exa
+source ~/.zsh/bat
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
@@ -53,7 +55,7 @@ source ~/.zsh/jenv
 
 # Plugins
 # plugins=(docker zsh-syntax-highlighting zsh-nvm-auto-switch)
-plugins=(zsh-syntax-highlighting zsh-nvm-auto-switch zsh-autosuggestions)
+# plugins=(zsh-nvm-auto-switch zsh-autosuggestions zsh-syntax-highlighting)
 
 # Load Git completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
@@ -65,3 +67,5 @@ autoload -Uz compinit && compinit
 
 eval "$(starship init zsh)"
 source ~/.zsh/thefuck
+
+plugins=(zsh-nvm-auto-switch zsh-autosuggestions zsh-syntax-highlighting)
