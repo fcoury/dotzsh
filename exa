@@ -1,0 +1,14 @@
+unalias ls
+
+if [ -x "$(which exa)" ]; then
+  ls() {
+    # Check if the -rt flag is present
+    if [[ $@ == *"-rt"* ]]; then
+      # If the flag is present, replace it with -snew and pass the arguments to exa
+      exa ${@//"-rt"/"-snew"}
+    else
+      # If the flag is not present, pass the arguments to exa as-is
+      exa "$@"
+    fi
+  }
+fi
