@@ -36,6 +36,8 @@ source ~/.zsh/vscode
 source ~/.zsh/jenv
 source ~/.zsh/exa
 source ~/.zsh/bat
+source ~/.zsh/deno
+source ~/.zsh/yarn
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
@@ -50,7 +52,7 @@ source ~/.zsh/bat
 # source ~/.zsh/android-sdk
 # source ~/.zsh/completions
 # test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
-# test -f ~/.zsh/secrets && source ~/.zsh/secrets
+test -f ~/.zsh/secrets && source ~/.zsh/secrets
 # test -f ~/.iterm2_shell_integration.zh && source ~/.iterm2_shell_integration.zsh
 
 # Plugins
