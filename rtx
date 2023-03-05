@@ -1,0 +1,2 @@
+test -x /opt/homebrew/bin/rtx || return
+eval "$(/opt/homebrew/bin/rtx activate zsh)"

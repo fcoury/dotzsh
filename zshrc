@@ -38,6 +38,7 @@ source ~/.zsh/exa
 source ~/.zsh/bat
 source ~/.zsh/deno
 source ~/.zsh/yarn
+source ~/.zsh/rtx
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
