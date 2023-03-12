@@ -1,2 +1,1 @@
-test -x /opt/homebrew/bin/rtx || return
-eval "$(/opt/homebrew/bin/rtx activate zsh)"
+test -x /opt/homebrew/bin/rtx && eval "$(/opt/homebrew/bin/rtx activate zsh)"
