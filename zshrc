@@ -40,6 +40,7 @@ source ~/.zsh/deno
 source ~/.zsh/yarn
 source ~/.zsh/rtx
 source ~/.zsh/atuin
+source ~/.zsh/pnpm
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
