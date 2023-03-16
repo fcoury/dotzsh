@@ -56,3 +56,5 @@ alias gap='git add -p'
 alias tv='tidy-viewer'
 alias vi='nvim'
 alias vim='nvim'
+
+alias vivi='cd ~/.config/nvim/lua/user && nvim'
