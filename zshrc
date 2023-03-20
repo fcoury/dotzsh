@@ -17,30 +17,31 @@ source $ZSH/oh-my-zsh.sh
 
 ### User loaders section
 
-source ~/.zsh/locale
-source ~/.zsh/cdpath
-source ~/.zsh/aliases
-source ~/.zsh/settings
-source ~/.zsh/iterm2
-source ~/.zsh/path
-source ~/.zsh/hub
-source ~/.zsh/python
-source ~/.zsh/nvm
-source ~/.zsh/golang
-source ~/.zsh/bun
-source ~/.zsh/homebrew
-source ~/.zsh/rust
-source ~/.zsh/colordiff
-source ~/.zsh/vscode
+source ~/.zsh/config/locale
+source ~/.zsh/config/cdpath
+source ~/.zsh/config/aliases
+source ~/.zsh/config/settings
+source ~/.zsh/config/iterm2
+source ~/.zsh/config/path
+source ~/.zsh/config/hub
+source ~/.zsh/config/python
+source ~/.zsh/config/nvm
+source ~/.zsh/config/golang
+source ~/.zsh/config/bun
+source ~/.zsh/config/homebrew
+source ~/.zsh/config/rust
+source ~/.zsh/config/colordiff
+source ~/.zsh/config/vscode
+source ~/.zsh/config/jenv
+source ~/.zsh/config/exa
+source ~/.zsh/config/bat
+source ~/.zsh/config/deno
+source ~/.zsh/config/yarn
+source ~/.zsh/config/rtx
+source ~/.zsh/config/atuin
+source ~/.zsh/config/pnpm
+source ~/.zsh/config/thefuck
 # source ~/.zsh/mcfly
-source ~/.zsh/jenv
-source ~/.zsh/exa
-source ~/.zsh/bat
-source ~/.zsh/deno
-source ~/.zsh/yarn
-source ~/.zsh/rtx
-source ~/.zsh/atuin
-source ~/.zsh/pnpm
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
 # source ~/.zsh/1pass
@@ -71,6 +72,5 @@ autoload -Uz compinit && compinit
 ### Starship prompt
 
 eval "$(starship init zsh)"
-source ~/.zsh/thefuck
 
 plugins=(zsh-nvm-auto-switch zsh-autosuggestions zsh-syntax-highlighting)
