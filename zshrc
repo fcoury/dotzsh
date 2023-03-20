@@ -12,7 +12,7 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin"
+export PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 source $ZSH/oh-my-zsh.sh
 
 ### User loaders section
@@ -41,6 +41,8 @@ source ~/.zsh/config/rtx
 source ~/.zsh/config/atuin
 source ~/.zsh/config/pnpm
 source ~/.zsh/config/thefuck
+test -f ~/.zsh/config/secrets && source ~/.zsh/config/secrets
+
 # source ~/.zsh/mcfly
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
@@ -56,7 +58,6 @@ source ~/.zsh/config/thefuck
 # source ~/.zsh/android-sdk
 # source ~/.zsh/completions
 # test -d /Users/fcoury/opt/miniconda3 && source ~/.zsh/conda
-test -f ~/.zsh/secrets && source ~/.zsh/secrets
 # test -f ~/.iterm2_shell_integration.zh && source ~/.iterm2_shell_integration.zsh
 
 # Plugins
