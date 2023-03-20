@@ -1,1 +1,4 @@
-test -x /opt/homebrew/bin/rtx && eval "$(/opt/homebrew/bin/rtx activate zsh)"
+rtx_path=$(which rtx 2>/dev/null)
+if test -x "$rtx_path"; then
+  eval "$($rtx_path activate zsh)"
+fi
