@@ -41,6 +41,7 @@ source ~/.zsh/config/rtx
 source ~/.zsh/config/atuin
 source ~/.zsh/config/pnpm
 source ~/.zsh/config/thefuck
+source ~/.zsh/config/library_path
 test -f ~/.zsh/config/secrets && source ~/.zsh/config/secrets
 
 # source ~/.zsh/mcfly
