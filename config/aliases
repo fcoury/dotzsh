@@ -58,3 +58,25 @@ alias vi='nvim'
 alias vim='nvim'
 
 alias vivi='cd ~/.config/nvim/lua/user && nvim'
+
+# MSuite
+mc() {
+  dir="$1"
+  if [ -z "$1" ]; then
+    dir=`pwd`
+  fi
+
+  # Store the current directory
+  local prev_dir=$(pwd)
+
+  # Use trap to ensure we change back to the previous directory
+  # upon any signal or normal exit.
+  trap "cd $prev_dir" EXIT
+
+  cd /Users/fcoury/code/msuite
+  cargo run -- -d config --env-file "${dir}/.env" --path "${dir}" --watch
+
+  # Since we used trap, this line is not strictly necessary,
+  # but it's good to leave it for clarity.
+  cd $prev_dir
+}
