@@ -42,12 +42,12 @@ source ~/.zsh/config/atuin
 source ~/.zsh/config/pnpm
 source ~/.zsh/config/thefuck
 source ~/.zsh/config/library_path
-test -f ~/.zsh/config/secrets && source ~/.zsh/config/secrets
+source ~/.zsh/config/1password
+test -f ~/.zsh/secrets && source ~/.zsh/secrets
 
 # source ~/.zsh/mcfly
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
-# source ~/.zsh/1pass
 # source ~/.zsh/bashmyaws
 # source ~/.zsh/qt
 # source ~/.zsh/pyenv
