@@ -1,51 +1,36 @@
 [user]
 	name = Felipe Coury
 	email = felipe.coury@gmail.com
-	signingkey = 163F83077834A917
-
+	signingKey = 29AFDC56A8469F3AF21A89A5F577F79FA4872E03
 [github]
 	user = fcoury
-
 [core]
 	editor = code --wait
-	#pager = less -F -X
 	pager = delta
-
-[interactive]
-	diffFilter = delta --color-only
-
 [color]
 	ui = true
-
 [push]
 	default = simple
 	autoSetupRemote = true
-
+[pull]
+	rebase = false
 [alias]
 	st = status -sb
 	co = checkout
-
-[pull]
-	rebase = false
-
-[init]
-	defaultBranch = master
-
-[diff]
-	colorMoved = default
-	external = difft
-
-[diff "hex"]
-	textconv = hexdump -v -C
-
-[delta]
-	navigate = true
-
-[merge]
-	conflictstyle = diff3
-
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[gpg]
+	format = openpgp
+	program = /opt/homebrew/bin/gpg
