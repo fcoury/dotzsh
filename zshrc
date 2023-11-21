@@ -43,6 +43,7 @@ source ~/.zsh/config/pnpm
 source ~/.zsh/config/thefuck
 source ~/.zsh/config/library_path
 source ~/.zsh/config/1password
+source ~/.zsh/config/rust
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
 
 # source ~/.zsh/mcfly

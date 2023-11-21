@@ -1,2 +1,3 @@
 [ -d "$HOME/.cargo/bin" ] && export PATH="$HOME/.cargo/bin:$PATH"
 [ -f "$HOME/.cargo/env" ] && source $HOME/.cargo/env
+[ -x `which sccache` ] && export RUSTC_WRAPPER=sccache
