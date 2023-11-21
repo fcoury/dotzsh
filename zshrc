@@ -46,6 +46,7 @@ source ~/.zsh/config/1password
 source ~/.zsh/config/rust
 test -f ~/.zsh/secrets && source ~/.zsh/secrets
 
+# source ~/.zsh/config/zellij # loads zellij automatically
 # source ~/.zsh/mcfly
 # source ~/.zsh/imagemagick
 # source ~/.zsh/rbenv
