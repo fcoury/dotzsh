@@ -73,8 +73,30 @@ mc() {
   # upon any signal or normal exit.
   trap "cd $prev_dir" EXIT
 
-  cd /Users/fcoury/code/msuite
+  cd /Users/fcoury/code/msuite.workspace/msuite
   cargo run -- -d config --env-file "${dir}/.env" --path "${dir}" --watch
+
+  # Since we used trap, this line is not strictly necessary,
+  # but it's good to leave it for clarity.
+  cd $prev_dir
+}
+
+tt() {
+  dir=`pwd`
+  test="$1"
+  if [ -z "$1" ]; then
+    test="."
+  fi
+
+  # Store the current directory
+  local prev_dir=$(pwd)
+
+  # Use trap to ensure we change back to the previous directory
+  # upon any signal or normal exit.
+  trap "cd $prev_dir" EXIT SIGINT
+
+  cd /Users/fcoury/code/msuite.workspace/msuite
+  cargo watch -x 'run -- config --path '"${dir}"' --env-file '"${dir}/.env"' test '"${dir}/$1"' --watch'
 
   # Since we used trap, this line is not strictly necessary,
   # but it's good to leave it for clarity.
