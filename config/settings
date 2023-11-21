@@ -1,5 +1,5 @@
 #export PAGER=''
 #export LESS="-X"
-export EDITOR=vim
+export EDITOR=/opt/homebrew/bin/nvim
 export CLICOLOR=1
 #export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
