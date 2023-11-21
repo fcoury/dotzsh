@@ -5,7 +5,8 @@
 [github]
 	user = fcoury
 [core]
-	editor = code --wait
+	; editor = code --wait
+	editor = /opt/homebrew/bin/nvim
 	pager = delta
 [color]
 	ui = true
